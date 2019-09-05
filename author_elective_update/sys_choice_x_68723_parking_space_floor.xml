@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_choice action="DELETE" field="floor" table="x_68723_parking_space" version="3">
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>floor</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Trucks</label>
+            <language>en</language>
+            <name>x_68723_parking_space</name>
+            <sequence/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2019-08-31 10:48:59</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>a8cad4eadb23f3001b2853184b96198c</sys_id>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2019-08-31 10:49:05</sys_updated_on>
+            <value>Trucks</value>
+        </sys_choice>
+        <sys_choice_set action="INSERT_OR_UPDATE">
+            <element>floor</element>
+            <name>x_68723_parking_space</name>
+            <sys_class_name>sys_choice_set</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2019-08-31 10:48:34</sys_created_on>
+            <sys_id>9dba146edb23f3001b2853184b961926</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>floor</sys_name>
+            <sys_package display_value="Parking Assist" source="x_68723_parking">751b2df5db2fb3001b2853184b9619ee</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Parking Assist">751b2df5db2fb3001b2853184b9619ee</sys_scope>
+            <sys_update_name>sys_choice_x_68723_parking_space_floor</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2019-08-31 10:48:34</sys_updated_on>
+        </sys_choice_set>
+    </sys_choice>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Parking Assist">751b2df5db2fb3001b2853184b9619ee</application>
+        <file_path/>
+        <instance_id>0d75dbe6db70a300439ef70fbf96195c</instance_id>
+        <instance_name>dev71585</instance_name>
+        <name>sys_choice_x_68723_parking_space_floor</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update><sys_choice action="INSERT_OR_UPDATE" field="floor" table="x_68723_parking_space" version="3"><sys_choice action="INSERT_OR_UPDATE"><dependent_value/><element>floor</element><hint/><inactive>false</inactive><label>Trucks</label><language>en</language><name>x_68723_parking_space</name><sequence/><sys_created_by>admin</sys_created_by><sys_created_on>2019-08-31 10:48:59</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>/</sys_domain_path><sys_id>a8cad4eadb23f3001b2853184b96198c</sys_id><sys_mod_count>1</sys_mod_count><sys_updated_by>admin</sys_updated_by><sys_updated_on>2019-08-31 10:49:05</sys_updated_on><value>Trucks</value></sys_choice><sys_choice_set action="INSERT_OR_UPDATE"><element>floor</element><name>x_68723_parking_space</name><sys_class_name>sys_choice_set</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2019-08-31 10:48:34</sys_created_on><sys_id>9dba146edb23f3001b2853184b961926</sys_id><sys_mod_count>0</sys_mod_count><sys_name>floor</sys_name><sys_package display_value="Parking Assist" source="x_68723_parking">751b2df5db2fb3001b2853184b9619ee</sys_package><sys_policy/><sys_scope display_value="Parking Assist">751b2df5db2fb3001b2853184b9619ee</sys_scope><sys_update_name>sys_choice_x_68723_parking_space_floor</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2019-08-31 10:48:34</sys_updated_on></sys_choice_set></sys_choice></record_update>]]></payload>
+        <payload_hash>182481542</payload_hash>
+        <record_name>Parking Space.Floor</record_name>
+        <reverted_from/>
+        <source>3d1b2df5db2fb3001b2853184b9619f0</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-08-31 10:50:44</sys_created_on>
+        <sys_id>953b5caedb23f3001b2853184b961940</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>16ce74c7b100000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-08-31 10:50:44</sys_updated_on>
+        <type>Choice list</type>
+        <update_guid>113b5cae3223f30041c9b5c7b2c69240</update_guid>
+        <update_guid_history>113b5cae3223f30041c9b5c7b2c69240:182481542,9d3b986e7023f30050eb8de4b2ef45f8:-124342058,41da5c6e3023f300a3acdd91bc37d2dc:82804096,6fcad4ea7923f30032c835964ebc3a24:1111374955,31cad86e1a23f300d4234485ab8c37ac:1795138816,fbba582e1a23f300a5d7dfaf1ab7bcc5:-910692485,b2ba9c6e8623f300cc53d5cbb817c96e:1783479984,15ba146e0c23f3005f019fc3567a3128:-513513456</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-08-31 10:50:44</sys_created_on>
+        <sys_db_object display_value="" name="sys_choice_set">sys_choice_set</sys_db_object>
+        <sys_id>9dba146edb23f3001b2853184b961926</sys_id>
+        <sys_metadata>9dba146edb23f3001b2853184b961926</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>floor</sys_name>
+        <sys_package display_value="Parking Assist" source="x_68723_parking">751b2df5db2fb3001b2853184b9619ee</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Parking Assist">751b2df5db2fb3001b2853184b9619ee</sys_scope>
+        <sys_scope_delete display_value="">1295d8f3562f4ad48f2afb89c6ce7ca9</sys_scope_delete>
+        <sys_update_name>sys_choice_x_68723_parking_space_floor</sys_update_name>
+        <sys_update_version display_value="sys_choice_x_68723_parking_space_floor">953b5caedb23f3001b2853184b961940</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-08-31 10:50:44</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

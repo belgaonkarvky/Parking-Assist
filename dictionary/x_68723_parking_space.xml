@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element label="Parking Space" max_length="40" name="x_68723_parking_space" type="collection">
+        <element label="Active" max_length="40" name="active" type="string"/>
+        <element label="Floor Level" max_length="40" name="floor_level" type="string"/>
+        <element label="Occupied?" max_length="40" name="occupied" type="boolean"/>
+        <element label="Slot Number" max_length="5" name="slot_number" type="string"/>
+        <element choice="1" label="Slot Type" max_length="40" name="slot_type" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Bike" value="Bike"/>
+                <element inactive_on_update="false" label="Car" value="Car"/>
+                <element inactive_on_update="false" label="Truck" value="Truck"/>
+            </choice>
+        </element>
+    </element>
+</database>

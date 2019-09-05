@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element label="Parking Area" max_length="40" name="x_68723_parking_area" type="collection">
+        <element label="Floor Level" max_length="40" name="floor_level" type="string"/>
+        <element label="Slot Type Value" max_length="4000" name="slot_type_value" type="simple_name_values"/>
+    </element>
+</database>

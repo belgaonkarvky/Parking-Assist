@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_documentation element="slot_allocated" label="Slot Allocated" language="en" table="x_68723_parking_request">
+        <sys_documentation action="INSERT_OR_UPDATE">
+            <element>slot_allocated</element>
+            <help/>
+            <hint/>
+            <label>Slot Allocated</label>
+            <language>en</language>
+            <name>x_68723_parking_request</name>
+            <plural>Slot Allocated</plural>
+            <sys_class_name>sys_documentation</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2019-08-31 13:12:05</sys_created_on>
+            <sys_id>678bfc6edb27f3001b2853184b9619b3</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>Slot Allocated</sys_name>
+            <sys_package display_value="Parking Assist" source="x_68723_parking">751b2df5db2fb3001b2853184b9619ee</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Parking Assist">751b2df5db2fb3001b2853184b9619ee</sys_scope>
+            <sys_update_name>sys_documentation_x_68723_parking_request_slot_allocated_en</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2019-08-31 13:12:05</sys_updated_on>
+            <url/>
+            <url_target/>
+        </sys_documentation>
+    </sys_documentation>
+</record_update>

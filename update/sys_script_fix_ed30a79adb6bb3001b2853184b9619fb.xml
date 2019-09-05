@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_script_fix">
+    <sys_script_fix action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <before>false</before>
+        <description/>
+        <flush_cache>false</flush_cache>
+        <name>Create Parking Space</name>
+        <record_for_rollback>false</record_for_rollback>
+        <run_once>true</run_once>
+        <script><![CDATA[//clearTable();
+var floors = new GlideRecord('x_68723_parking_area');
+floors.query();
+while (floors.next()) {
+    createSlots(floors.floor_level, floors.slot_type_value);
+}
+
+
+
+function createSlots(floorLevel, slotValues) {
+    gs.info("floorLevel " + floorLevel + slotValues);
+    for (var slot in slotValues) {
+        var snum = "0000";
+        for (var i = 1; i <= slotValues[slot]; i++) {
+
+            if (i.toString().length == 1) {
+                snum = '000' + i.toString();
+            } else if (i.toString().length == 2) {
+                snum = '00' + i.toString();
+            } else if (i.toString().length == 3) {
+                snum = '0' + i.toString();
+            }
+            createSlotSpace(floorLevel, slot, snum);
+        }
+    }
+	return;
+}
+
+function createSlotSpace(floorLevel, slotType, num) {
+    var createSpace = new GlideRecord('x_68723_parking_space');
+    createSpace.initialize();
+    createSpace.floor_level = floorLevel;
+    createSpace.slot_type = slotType;
+    createSpace.occupied = false;
+    createSpace.slot_number = num;
+    createSpace.insert();
+	gs.info("inserted=" + num);
+}
+
+function clearTable() {
+    var createSpace = new GlideRecord('x_68723_parking_space');
+    createSpace.query();
+    if (createSpace.next()) {
+        createSpace.deleteMultiple();
+    }
+    return;
+}]]></script>
+        <sys_class_name>sys_script_fix</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-08-31 06:33:14</sys_created_on>
+        <sys_id>ed30a79adb6bb3001b2853184b9619fb</sys_id>
+        <sys_mod_count>8</sys_mod_count>
+        <sys_name>Create Parking Space</sys_name>
+        <sys_package display_value="Parking Assist" source="x_68723_parking">751b2df5db2fb3001b2853184b9619ee</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Parking Assist">751b2df5db2fb3001b2853184b9619ee</sys_scope>
+        <sys_update_name>sys_script_fix_ed30a79adb6bb3001b2853184b9619fb</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-09-01 08:30:32</sys_updated_on>
+        <unloadable>false</unloadable>
+    </sys_script_fix>
+</record_update>

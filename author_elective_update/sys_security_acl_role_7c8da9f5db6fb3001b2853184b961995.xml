@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_security_acl_role">
+    <sys_security_acl_role action="DELETE">
+        <sys_class_name>sys_security_acl_role</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-08-29 08:54:54</sys_created_on>
+        <sys_id>7c8da9f5db6fb3001b2853184b961995</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_68723_parking_slot.x_68723_parking.parking_slot_user</sys_name>
+        <sys_package display_value="Parking Assist" source="x_68723_parking">751b2df5db2fb3001b2853184b9619ee</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Parking Assist">751b2df5db2fb3001b2853184b9619ee</sys_scope>
+        <sys_security_acl display_value="x_68723_parking_slot">bc8da9f5db6fb3001b2853184b961992</sys_security_acl>
+        <sys_update_name>sys_security_acl_role_7c8da9f5db6fb3001b2853184b961995</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-08-29 08:54:54</sys_updated_on>
+        <sys_user_role display_value="x_68723_parking.parking_slot_user" name="x_68723_parking.parking_slot_user">648de975db2fb3001b2853184b961946</sys_user_role>
+        <transaction_id/>
+    </sys_security_acl_role>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Parking Assist">751b2df5db2fb3001b2853184b9619ee</application>
+        <file_path/>
+        <instance_id>0d75dbe6db70a300439ef70fbf96195c</instance_id>
+        <instance_name>dev71585</instance_name>
+        <name>sys_security_acl_role_7c8da9f5db6fb3001b2853184b961995</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_security_acl_role"><sys_security_acl_role action="INSERT_OR_UPDATE"><sys_class_name>sys_security_acl_role</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2019-08-29 08:54:54</sys_created_on><sys_id>7c8da9f5db6fb3001b2853184b961995</sys_id><sys_mod_count>0</sys_mod_count><sys_name>x_68723_parking_slot.x_68723_parking.parking_slot_user</sys_name><sys_package display_value="Parking Assist" source="x_68723_parking">751b2df5db2fb3001b2853184b9619ee</sys_package><sys_policy/><sys_scope display_value="Parking Assist">751b2df5db2fb3001b2853184b9619ee</sys_scope><sys_security_acl display_value="x_68723_parking_slot">bc8da9f5db6fb3001b2853184b961992</sys_security_acl><sys_update_name>sys_security_acl_role_7c8da9f5db6fb3001b2853184b961995</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2019-08-29 08:54:54</sys_updated_on><sys_user_role display_value="x_68723_parking.parking_slot_user" name="x_68723_parking.parking_slot_user">648de975db2fb3001b2853184b961946</sys_user_role><transaction_id/></sys_security_acl_role></record_update>]]></payload>
+        <payload_hash>-247574707</payload_hash>
+        <record_name>x_68723_parking_slot.x_68723_parking.parking_slot_user</record_name>
+        <reverted_from/>
+        <source>3d1b2df5db2fb3001b2853184b9619f0</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-08-29 08:54:54</sys_created_on>
+        <sys_id>b08da9f5db6fb3001b2853184b961998</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>16cdc95b53a0000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-08-29 08:54:54</sys_updated_on>
+        <type>Access Roles</type>
+        <update_guid>f88da9f51b6fb3005a27dbe6c534fd97</update_guid>
+        <update_guid_history>f88da9f51b6fb3005a27dbe6c534fd97:-247574707</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="x_68723_parking_slot.x_68723_parking.parking_slot_user">25c0e4aadb63f3001b2853184b961903</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-08-31 11:15:04</sys_created_on>
+        <sys_db_object display_value="" name="sys_security_acl_role">sys_security_acl_role</sys_db_object>
+        <sys_id>0325d44214494999849471ab868aeaf9</sys_id>
+        <sys_metadata>7c8da9f5db6fb3001b2853184b961995</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_68723_parking_slot.x_68723_parking.parking_slot_user</sys_name>
+        <sys_package display_value="Parking Assist" source="x_68723_parking">751b2df5db2fb3001b2853184b9619ee</sys_package>
+        <sys_parent display_value="">bc8da9f5db6fb3001b2853184b961992</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="Parking Assist">751b2df5db2fb3001b2853184b9619ee</sys_scope>
+        <sys_scope_delete display_value="">1295d8f3562f4ad48f2afb89c6ce7ca9</sys_scope_delete>
+        <sys_update_name>sys_security_acl_role_7c8da9f5db6fb3001b2853184b961995</sys_update_name>
+        <sys_update_version display_value="sys_security_acl_role_7c8da9f5db6fb3001b2853184b961995">b08da9f5db6fb3001b2853184b961998</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-08-31 11:15:04</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>
