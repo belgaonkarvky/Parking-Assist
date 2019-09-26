@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_instance">
+    <sp_instance action="DELETE">
+        <active>true</active>
+        <class_name/>
+        <color>default</color>
+        <css/>
+        <glyph/>
+        <id/>
+        <order>1</order>
+        <roles/>
+        <short_description/>
+        <size>md</size>
+        <sp_column display_value="1">4cb1371ddbf7f3001b2853184b9619bf</sp_column>
+        <sp_widget display_value="Form">fd1f4ec347730200ba13a5554ee490c0</sp_widget>
+        <sys_class_name>sp_instance</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-09-09 15:33:24</sys_created_on>
+        <sys_id>2d323bd9dbf7f3001b2853184b96197f</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Parking Assist" source="x_68723_parking">751b2df5db2fb3001b2853184b9619ee</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Parking Assist">751b2df5db2fb3001b2853184b9619ee</sys_scope>
+        <sys_update_name>sp_instance_2d323bd9dbf7f3001b2853184b96197f</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-09-09 15:33:24</sys_updated_on>
+        <title/>
+        <url/>
+        <widget_parameters/>
+    </sp_instance>
+    <sys_translated_text action="delete_multiple" query="documentkey=2d323bd9dbf7f3001b2853184b96197f"/>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Parking Assist">751b2df5db2fb3001b2853184b9619ee</application>
+        <file_path/>
+        <instance_id>0d75dbe6db70a300439ef70fbf96195c</instance_id>
+        <instance_name>dev71585</instance_name>
+        <name>sp_instance_2d323bd9dbf7f3001b2853184b96197f</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_instance"><sp_instance action="INSERT_OR_UPDATE"><active>true</active><class_name/><color>default</color><css/><glyph/><id/><order>1</order><roles/><short_description/><size>md</size><sp_column display_value="1">4cb1371ddbf7f3001b2853184b9619bf</sp_column><sp_widget display_value="Form">fd1f4ec347730200ba13a5554ee490c0</sp_widget><sys_class_name>sp_instance</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2019-09-09 15:33:24</sys_created_on><sys_id>2d323bd9dbf7f3001b2853184b96197f</sys_id><sys_mod_count>0</sys_mod_count><sys_name/><sys_package display_value="Parking Assist" source="x_68723_parking">751b2df5db2fb3001b2853184b9619ee</sys_package><sys_policy/><sys_scope display_value="Parking Assist">751b2df5db2fb3001b2853184b9619ee</sys_scope><sys_update_name>sp_instance_2d323bd9dbf7f3001b2853184b96197f</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2019-09-09 15:33:24</sys_updated_on><title/><url/><widget_parameters/></sp_instance><sys_translated_text action="delete_multiple" query="documentkey=2d323bd9dbf7f3001b2853184b96197f"/></record_update>]]></payload>
+        <payload_hash>549797768</payload_hash>
+        <record_name/>
+        <reverted_from/>
+        <source>3d1b2df5db2fb3001b2853184b9619f0</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-09-09 15:33:24</sys_created_on>
+        <sys_id>61323b5ddbf7f3001b2853184b961954</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>16d16a8804a0000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-09-09 15:33:24</sys_updated_on>
+        <type>Instance</type>
+        <update_guid>a9323b5d91f7f300c983908e6af34b53</update_guid>
+        <update_guid_history>a9323b5d91f7f300c983908e6af34b53:549797768</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="">0d42775ddbf7f3001b2853184b961985</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-09-09 15:33:39</sys_created_on>
+        <sys_db_object display_value="" name="sp_instance">sp_instance</sys_db_object>
+        <sys_id>e17c3fadaeb34d3c80b2c4046212b3e9</sys_id>
+        <sys_metadata>2d323bd9dbf7f3001b2853184b96197f</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Parking Assist" source="x_68723_parking">751b2df5db2fb3001b2853184b9619ee</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Parking Assist">751b2df5db2fb3001b2853184b9619ee</sys_scope>
+        <sys_scope_delete display_value="">1295d8f3562f4ad48f2afb89c6ce7ca9</sys_scope_delete>
+        <sys_update_name>sp_instance_2d323bd9dbf7f3001b2853184b96197f</sys_update_name>
+        <sys_update_version display_value="sp_instance_2d323bd9dbf7f3001b2853184b96197f">61323b5ddbf7f3001b2853184b961954</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-09-09 15:33:39</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

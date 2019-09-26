@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_portal">
+    <sp_portal action="INSERT_OR_UPDATE">
+        <css_variables/>
+        <default>false</default>
+        <homepage/>
+        <icon/>
+        <kb_knowledge_base/>
+        <kb_knowledge_page/>
+        <login_page/>
+        <logo/>
+        <notfound_page display_value="404">3c2c9063cb11020000f8d856634c9c1f</notfound_page>
+        <quick_start_config/>
+        <sc_catalog/>
+        <sc_catalog_page/>
+        <sc_category_page/>
+        <sp_chat_queue/>
+        <sp_rectangle_menu/>
+        <sqanda_knowledge_base/>
+        <sys_class_name>sp_portal</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-09-09 12:56:26</sys_created_on>
+        <sys_id>760e4fd5dbf3f3001b2853184b961931</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Parking Assist</sys_name>
+        <sys_package display_value="Parking Assist" source="x_68723_parking">751b2df5db2fb3001b2853184b9619ee</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Parking Assist">751b2df5db2fb3001b2853184b9619ee</sys_scope>
+        <sys_update_name>sp_portal_760e4fd5dbf3f3001b2853184b961931</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-09-09 12:56:26</sys_updated_on>
+        <theme/>
+        <title>Parking Assist</title>
+        <ts_index_group/>
+        <url_suffix>park_assist</url_suffix>
+    </sp_portal>
+    <sys_translated_text action="delete_multiple" query="documentkey=760e4fd5dbf3f3001b2853184b961931"/>
+</record_update>

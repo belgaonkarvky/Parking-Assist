@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_row">
+    <sp_row action="DELETE">
+        <class_name/>
+        <order>1</order>
+        <sp_column/>
+        <sp_container display_value="parking home - Container 1">3f5fc799dbf3f3001b2853184b9619ce</sp_container>
+        <sys_class_name>sp_row</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-09-09 15:30:40</sys_created_on>
+        <sys_id>a191731ddbf7f3001b2853184b961965</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>1</sys_name>
+        <sys_package display_value="Parking Assist" source="x_68723_parking">751b2df5db2fb3001b2853184b9619ee</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Parking Assist">751b2df5db2fb3001b2853184b9619ee</sys_scope>
+        <sys_update_name>sp_row_a191731ddbf7f3001b2853184b961965</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-09-09 15:30:40</sys_updated_on>
+    </sp_row>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Parking Assist">751b2df5db2fb3001b2853184b9619ee</application>
+        <file_path/>
+        <instance_id>0d75dbe6db70a300439ef70fbf96195c</instance_id>
+        <instance_name>dev71585</instance_name>
+        <name>sp_row_a191731ddbf7f3001b2853184b961965</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_row"><sp_row action="INSERT_OR_UPDATE"><class_name/><order>1</order><sp_column/><sp_container display_value="parking home - Container 1">3f5fc799dbf3f3001b2853184b9619ce</sp_container><sys_class_name>sp_row</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2019-09-09 15:30:40</sys_created_on><sys_id>a191731ddbf7f3001b2853184b961965</sys_id><sys_mod_count>0</sys_mod_count><sys_name>1</sys_name><sys_package display_value="Parking Assist" source="x_68723_parking">751b2df5db2fb3001b2853184b9619ee</sys_package><sys_policy/><sys_scope display_value="Parking Assist">751b2df5db2fb3001b2853184b9619ee</sys_scope><sys_update_name>sp_row_a191731ddbf7f3001b2853184b961965</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2019-09-09 15:30:40</sys_updated_on></sp_row></record_update>]]></payload>
+        <payload_hash>1341434490</payload_hash>
+        <record_name>1</record_name>
+        <reverted_from/>
+        <source>3d1b2df5db2fb3001b2853184b9619f0</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-09-09 15:30:40</sys_created_on>
+        <sys_id>6d91731ddbf7f3001b2853184b961967</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>16d16a600160000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-09-09 15:30:40</sys_updated_on>
+        <type>Row</type>
+        <update_guid>a591731d26f7f300b4bfd29293dac267</update_guid>
+        <update_guid_history>a591731d26f7f300b4bfd29293dac267:1341434490</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="1">0f91b31ddbf7f3001b2853184b961959</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-09-09 15:30:47</sys_created_on>
+        <sys_db_object display_value="" name="sp_row">sp_row</sys_db_object>
+        <sys_id>1f278442f96c463ca771be36b3f7cf10</sys_id>
+        <sys_metadata>a191731ddbf7f3001b2853184b961965</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>1</sys_name>
+        <sys_package display_value="Parking Assist" source="x_68723_parking">751b2df5db2fb3001b2853184b9619ee</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Parking Assist">751b2df5db2fb3001b2853184b9619ee</sys_scope>
+        <sys_scope_delete display_value="">1295d8f3562f4ad48f2afb89c6ce7ca9</sys_scope_delete>
+        <sys_update_name>sp_row_a191731ddbf7f3001b2853184b961965</sys_update_name>
+        <sys_update_version display_value="sp_row_a191731ddbf7f3001b2853184b961965">6d91731ddbf7f3001b2853184b961967</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-09-09 15:30:47</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="m2m_sp_ng_pro_sp_widget">
+    <m2m_sp_ng_pro_sp_widget action="INSERT_OR_UPDATE">
+        <sp_angular_provider display_value="scBindHtmlCompile">631d65a287300300e0ef0cf888cb0ba3</sp_angular_provider>
+        <sp_widget display_value="Parking Assist Form">41e2775ddbf7f3001b2853184b961931</sp_widget>
+        <sys_class_name>m2m_sp_ng_pro_sp_widget</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-09-09 15:36:23</sys_created_on>
+        <sys_id>45e2ff9ddbf7f3001b2853184b96193d</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>scBindHtmlCompile.Parking Assist Form</sys_name>
+        <sys_package display_value="Parking Assist" source="x_68723_parking">751b2df5db2fb3001b2853184b9619ee</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Parking Assist">751b2df5db2fb3001b2853184b9619ee</sys_scope>
+        <sys_update_name>m2m_sp_ng_pro_sp_widget_45e2ff9ddbf7f3001b2853184b96193d</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-09-09 15:36:23</sys_updated_on>
+    </m2m_sp_ng_pro_sp_widget>
+</record_update>
